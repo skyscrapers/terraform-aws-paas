@@ -106,7 +106,7 @@ resource "aws_elastic_beanstalk_environment" "bstk_env" {
   setting {
     namespace = "aws:autoscaling:launchconfiguration"
     name = "IamInstanceProfile"
-    value = "${aws_iam_instance_profile.BeanstalkEnhancedHealth.name}"
+    value = "${aws_iam_instance_profile.profile.name}"
   }
 
   setting {
