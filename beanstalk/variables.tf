@@ -32,5 +32,4 @@ variable "healthcheck" {
   default = "TCP:80"
 }
 
-variable "service_role" {}
 variable "monitoring_type" {}
