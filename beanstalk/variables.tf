@@ -33,3 +33,5 @@ variable "healthcheck" {
 }
 
 variable "monitoring_type" {}
+
+variable "service_role" {}

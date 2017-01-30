@@ -47,7 +47,7 @@ resource "aws_elastic_beanstalk_environment" "bstk_env" {
   setting {
     namespace = "aws:elasticbeanstalk:environment"
     name = "ServiceRole"
-    value = "BeanstalkEnhancedHealth_${var.project}_${var.environment}_${var.app_name}"
+    value = "${var.service_role}"
   }
 
   setting {
