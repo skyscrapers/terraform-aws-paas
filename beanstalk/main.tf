@@ -29,7 +29,7 @@ resource "aws_elastic_beanstalk_environment" "bstk_env" {
   setting {
     namespace = "aws:ec2:vpc"
     name = "AssociatePublicIpAddress"
-    value = "false"
+    value = "${instance_public_ip}"
   }
 
   setting {

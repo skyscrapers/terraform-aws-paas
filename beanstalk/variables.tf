@@ -35,3 +35,8 @@ variable "healthcheck" {
 variable "monitoring_type" {}
 
 variable "service_role" {}
+
+variable "instance_public_ip" {
+  description = "Does your instances need an public ip"
+  default = "false"
+}
