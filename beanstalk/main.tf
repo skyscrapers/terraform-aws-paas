@@ -35,7 +35,7 @@ resource "aws_elastic_beanstalk_environment" "bstk_env" {
   setting {
     namespace = "aws:ec2:vpc"
     name = "ELBScheme"
-    value = "internal"
+    value = "${var.elb_visibility}"
   }
 
   setting {

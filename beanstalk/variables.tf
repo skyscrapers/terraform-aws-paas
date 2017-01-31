@@ -45,3 +45,8 @@ variable "solution_stack_name" {
   description = "Name of the stack solution"
   default = "64bit Amazon Linux 2016.03 v2.1.0 running Docker 1.9.1"
 }
+
+variable "elb_visibility" {
+  description = "Do you want to have an internal or external ELB"
+  default = "internal"
+}
