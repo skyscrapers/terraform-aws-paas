@@ -1,5 +1,9 @@
-# terraform-aws-paas
+# terraform-aws-paas (DEPRECATED)
 Repository containing TF modules aimed at interacting with AWS Beanstalk &amp; Opsworks
+
+## Deprecation notice :warning:
+
+This repository is deprecated and no longer maintained.
 
 ## AWS Beanstalk
 Creates an AWS Beanstalk application and environment.
